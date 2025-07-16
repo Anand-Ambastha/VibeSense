@@ -38,11 +38,10 @@ Short-form content is dominating fashion discovery. But brands, creators, and pl
 All in a single lightweight pipeline.
 
 ```mermaid
+graph TD
     A[Start: Input Video (.mp4)] --> B[Extract Frames using FFmpeg]
-    
     B --> C[Run YOLOv8 on Frames]
     C --> D[Crop Detected Clothing Items]
-    
     D --> E[Embed Crops using CLIP]
     E --> F[Search with FAISS]
     F --> G[Retrieve Product Metadata]
@@ -60,7 +59,6 @@ All in a single lightweight pipeline.
     M --> N[Save Final Structured JSON]
     N --> O[Output Complete]
 ```
-
 
 ---
 
