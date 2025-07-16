@@ -1,5 +1,5 @@
 [project]
-name = "VibeSense By Flickd"
+name = "VibeSense"
 version = "0.1.0"
 description = "VibeSense is a fashion-intelligence module in Flickd that detects product matches and aesthetic vibes from video captions using vision-language AI."
 authors = [
