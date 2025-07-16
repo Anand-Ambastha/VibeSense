@@ -38,28 +38,27 @@ Short-form content is dominating fashion discovery. But brands, creators, and pl
 All in a single lightweight pipeline.
 
 ```mermaid
-graph TD
-    A[Start: Input Video (.mp4)] --> B[Extract Frames via FFmpeg]
+    A[Start: Input Video (.mp4)] --> B[Extract Frames using FFmpeg]
     
     B --> C[Run YOLOv8 on Frames]
     C --> D[Crop Detected Clothing Items]
+    
     D --> E[Embed Crops using CLIP]
-
-    E --> F[Search FAISS Index]
-    F --> G[Match with Product Metadata]
+    E --> F[Search with FAISS]
+    F --> G[Retrieve Product Metadata]
 
     B --> H[Read Caption File (.txt)]
-    H --> I[Generate Caption Embedding using SentenceTransformer]
+    H --> I[Generate Caption Embedding]
     I --> J[Extract Top 3 Vibes]
 
     G --> K[Assemble Product Matches]
-    J --> L[Add Vibe Tags]
+    J --> L[Attach Vibe Tags]
 
-    K --> M[Combine All into Final JSON]
+    K --> M[Combine Matches and Vibes]
     L --> M
 
-    M --> N[Save to outputs/video_name/video_name_final.json]
-    N --> O[Done ]
+    M --> N[Save Final Structured JSON]
+    N --> O[Output Complete]
 ```
 
 
