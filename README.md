@@ -119,10 +119,10 @@ flickd-vibesense/
 
 ## 🔄 How to Run
 
-1. ✅ Clone the repo
-2. 📦 Install requirements
-3. 🎥 Place your video in `videos/` and its caption in `captions/` with the same filename
-4. ▶️ Run:
+1.  Clone the repo
+2.  Install requirements
+3.  Place your video in `videos/` and its caption in `captions/` with the same filename
+4.  Run:
 
 ```bash
 python main.py
@@ -135,7 +135,9 @@ python main.py
 ## 🌟 Credits
 
 Made with ❤️ for the **Flickd**
+
 By \[Anand]
+
 Using open-source tools and custom-trained models
 
 ---
