@@ -1,0 +1,33 @@
+[project]
+name = "VibeSense By Flickd"
+version = "0.1.0"
+description = "VibeSense is a fashion-intelligence module in Flickd that detects product matches and aesthetic vibes from video captions using vision-language AI."
+authors = [
+    { name="Anand Kumar", email="anandambastha72@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "clip",
+    "datetime>=5.5",
+    "faiss-cpu>=1.11.0",
+    "ftfy>=6.3.1",
+    "numpy>=2.3.1",
+    "opencv-python>=4.11.0.86",
+    "openpyxl>=3.1.5",
+    "pandas>=2.3.1",
+    "pathlib>=1.0.1",
+    "pprints>=2.0.0",
+    "pycocotools>=2.0.10",
+    "regex>=2024.11.6",
+    "requests>=2.32.4",
+    "scikit-learn>=1.7.0",
+    "sentence-transformers>=5.0.0",
+    "torch>=2.7.1",
+    "torchvision>=0.22.1",
+    "tqdm>=4.67.1",
+    "ultralytics>=8.3.166",
+]
+
+[tool.uv.sources]
+clip = { git = "https://github.com/openai/CLIP.git" }

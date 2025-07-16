@@ -1,0 +1,80 @@
+{
+  "video_id": "2025-05-27_13-46-16_UTC",
+  "vibes": [
+    "Cottagecore",
+    "Clean Girl",
+    "Boho"
+  ],
+  "products": [
+    {
+      "type": "unknown",
+      "color": "unknown",
+      "match_type": "Similar Match",
+      "Product_ID": "17127",
+      "confidence": 0.8816
+    },
+    {
+      "type": "unknown",
+      "color": "unknown",
+      "match_type": "Similar Match",
+      "Product_ID": "17008",
+      "confidence": 0.8564
+    },
+    {
+      "type": "unknown",
+      "color": "unknown",
+      "match_type": "Similar Match",
+      "Product_ID": "16982",
+      "confidence": 0.782
+    },
+    {
+      "type": "Shirt",
+      "color": "Grey",
+      "match_type": "Similar Match",
+      "Product_ID": "15581",
+      "confidence": 0.8543
+    },
+    {
+      "type": "unknown",
+      "color": "unknown",
+      "match_type": "Similar Match",
+      "Product_ID": "17051",
+      "confidence": 0.8318
+    },
+    {
+      "type": "Skirt",
+      "color": "RED",
+      "match_type": "Similar Match",
+      "Product_ID": "17128",
+      "confidence": 0.7868
+    },
+    {
+      "type": "Trouser",
+      "color": "Black",
+      "match_type": "Similar Match",
+      "Product_ID": "15209",
+      "confidence": 0.8109
+    },
+    {
+      "type": "Trouser",
+      "color": "Black",
+      "match_type": "Similar Match",
+      "Product_ID": "15409",
+      "confidence": 0.869
+    },
+    {
+      "type": "unknown",
+      "color": "unknown",
+      "match_type": "Exact Match",
+      "Product_ID": "17113",
+      "confidence": 0.9028
+    },
+    {
+      "type": "Dress",
+      "color": "Purple",
+      "match_type": "Similar Match",
+      "Product_ID": "15974",
+      "confidence": 0.84
+    }
+  ]
+}
