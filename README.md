@@ -70,7 +70,6 @@ All in a single lightweight pipeline.
 
 📄 [Click to view the official problem statement PDF](https://drive.google.com/file/d/1Y1Rsb6670qDuvdi4oElfcCWLeC7HpjSO/view?usp=sharing)
 
-*(Replace this with your actual drive/github/hosted link)*
 
 ---
 
