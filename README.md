@@ -39,7 +39,7 @@ All in a single lightweight pipeline.
 
 ```mermaid
 graph TD
-    A[Start: Input Video (.mp4)] --> B[Extract Frames using FFmpeg]
+    A[Start: Input Video (mp4)] --> B[Extract Frames using FFmpeg]
     B --> C[Run YOLOv8 on Frames]
     C --> D[Crop Detected Clothing Items]
     D --> E[Embed Crops using CLIP]
