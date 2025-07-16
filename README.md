@@ -1,6 +1,6 @@
-# 📅 Flickd | VibeSense
+# VibeSense
 
-**VibeSense** is an AI-powered fashion intelligence feature developed under the **Flickd** project. It analyzes short-form videos to detect fashion products and extract their underlying aesthetic *vibes* — such as *Coquette*, *Streetwear*, or *Vintage* — using a blend of vision-language models.
+**VibeSense** is an AI-powered fashion intelligence feature developed under the **Flickd AI Hackathon** project. It analyzes short-form videos to detect fashion products and extract their underlying aesthetic *vibes* — such as *Coquette*, *Streetwear*, or *Vintage* — using a blend of vision-language models.
 
 Developed for the [Flickd AI Hackathon 2025](https://drive.google.com/file/d/1Y1Rsb6670qDuvdi4oElfcCWLeC7HpjSO/view?usp=sharing), VibeSense brings together real-time detection, product matching, and vibe interpretation from captions and visual content.
 
