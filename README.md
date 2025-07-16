@@ -144,7 +144,7 @@ flickd-vibesense/
 
 1.  Clone the repo
 2.  Install requirements
-3.  Place your video in `videos/` and its caption in `captions/` with the same filename
+3.  Place your video and its caption in `videos/`  with the same filename
 4.  Run:
 
 ```bash
