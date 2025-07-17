@@ -1,6 +1,6 @@
-# 📅 Flickd | VibeSense
+# VibeSense
 
-**VibeSense** is an AI-powered fashion intelligence feature developed under the **Flickd** project. It analyzes short-form videos to detect fashion products and extract their underlying aesthetic *vibes* — such as *Coquette*, *Streetwear*, or *Vintage* — using a blend of vision-language models.
+**VibeSense** is an AI-powered fashion intelligence feature developed under the **Flickd AI Hackathon** project. It analyzes short-form videos to detect fashion products and extract their underlying aesthetic *vibes* — such as *Coquette*, *Streetwear*, or *Vintage* — using a blend of vision-language models.
 
 Developed for the [Flickd AI Hackathon 2025](https://drive.google.com/file/d/1Y1Rsb6670qDuvdi4oElfcCWLeC7HpjSO/view?usp=sharing), VibeSense brings together real-time detection, product matching, and vibe interpretation from captions and visual content.
 
@@ -35,7 +35,34 @@ Short-form content is dominating fashion discovery. But brands, creators, and pl
 * 👗 Visual Product Matching
 * 🧠 Caption-to-Vibe Understanding
 
+
+**Demo Link** : [Click Here](https://youtu.be/rObEcmknkh8)
+
 All in a single lightweight pipeline.
+
+
+```mermaid
+graph TD
+    A[Start: Input Video .mp4] --> B[Extract Frames using OpenCV]
+    B --> C[Run YOLOv8 on Frames]
+    C --> D[Crop Detected Clothing Items]
+    D --> E[Embed Crops using CLIP]
+    E --> F[Search with FAISS]
+    F --> G[Retrieve Product Metadata]
+
+    B --> H[Read Caption File .txt]
+    H --> I[Generate Caption Embedding]
+    I --> J[Extract Top 3 Vibes]
+
+    G --> K[Assemble Product Matches]
+    J --> L[Attach Vibe Tags]
+
+    K --> M[Combine Matches and Vibes]
+    L --> M
+
+    M --> N[Save Final Structured JSON]
+    N --> O[Output Complete]
+```
 
 ---
 
@@ -70,7 +97,6 @@ All in a single lightweight pipeline.
 
 📄 [Click to view the official problem statement PDF](https://drive.google.com/file/d/1Y1Rsb6670qDuvdi4oElfcCWLeC7HpjSO/view?usp=sharing)
 
-*(Replace this with your actual drive/github/hosted link)*
 
 ---
 
@@ -95,7 +121,9 @@ All in a single lightweight pipeline.
 ---
 
 ## Dataset
+
 The project uses the Fashionpedia dataset, which includes 45 clothing categories with detailed annotations. It was used for training YOLOv8n and generating embeddings for fashion item analysis.
+
 ---
 
 ## 📂 Folder Structure
@@ -106,7 +134,7 @@ flickd-vibesense/
 ├── clip_embedding.py        # CLIP catalog embedding
 ├── cropped_yolo.py          # Frame & crop logic
 ├── faiss_data_extract.py    # Matching logic
-├── vibe_sense.py            # Caption vibe extraction
+├── vibe_extraction.py       # Caption vibe extraction
 ├── product_data.xlsx        # Product catalog
 ├── videos/                  # Input videos, Caption Files
 ├── crops/                   # YOLO crops
@@ -119,23 +147,25 @@ flickd-vibesense/
 
 ## 🔄 How to Run
 
-1. ✅ Clone the repo
-2. 📦 Install requirements
-3. 🎥 Place your video in `videos/` and its caption in `captions/` with the same filename
-4. ▶️ Run:
+1.  Clone the repo
+2.  Install requirements
+3.  Place your video and its caption in `videos/`  with the same filename
+4.  Run:
 
 ```bash
 python main.py
 ```
 
-5. 🗂️ Find your results in `outputs/`
+5. Find your results in `outputs/`
 
 ---
 
 ## 🌟 Credits
 
 Made with ❤️ for the **Flickd**
-By \[Anand]
+
+By  [Anand](https://www.linkedin.com/in/anand-kumar05/)
+
 Using open-source tools and custom-trained models
 
 ---
