@@ -36,7 +36,8 @@ Short-form content is dominating fashion discovery. But brands, creators, and pl
 * 🧠 Caption-to-Vibe Understanding
 
 
-**Demo Link** : [Click Here](https://youtu.be/rObEcmknkh8)
+**Demo Link w/o Audio** : [Click Here](https://youtu.be/rObEcmknkh8)
+**Demo Link w Audio** : [Click Here](https://youtu.be/B322SUCBQ84)
 
 All in a single lightweight pipeline.
 
