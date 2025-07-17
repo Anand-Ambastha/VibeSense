@@ -164,7 +164,7 @@ python main.py
 
 Made with ❤️ for the **Flickd**
 
-By \[Anand](https://www.linkedin.com/in/anand-kumar05/)
+By  [Anand](https://www.linkedin.com/in/anand-kumar05/)
 
 Using open-source tools and custom-trained models
 
