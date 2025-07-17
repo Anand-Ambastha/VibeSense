@@ -156,7 +156,7 @@ flickd-vibesense/
 python main.py
 ```
 
-5. 🗂️ Find your results in `outputs/`
+5. Find your results in `outputs/`
 
 ---
 
@@ -164,7 +164,7 @@ python main.py
 
 Made with ❤️ for the **Flickd**
 
-By \[Anand]
+By \[Anand](https://www.linkedin.com/in/anand-kumar05/)
 
 Using open-source tools and custom-trained models
 
