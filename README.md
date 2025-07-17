@@ -119,6 +119,7 @@ graph TD
 ## Dataset
 
 The project uses the Fashionpedia dataset, which includes 45 clothing categories with detailed annotations. It was used for training YOLOv8n and generating embeddings for fashion item analysis.
+
 ---
 
 ## 📂 Folder Structure
