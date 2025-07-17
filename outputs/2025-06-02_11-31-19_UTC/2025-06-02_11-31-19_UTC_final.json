@@ -1,0 +1,52 @@
+{
+  "video_id": "2025-06-02_11-31-19_UTC",
+  "vibes": [
+    "Clean Girl",
+    "Boho",
+    "Party Glam"
+  ],
+  "products": [
+    {
+      "type": "Shirt",
+      "color": "Blue",
+      "match_type": "Exact Match",
+      "Product_ID": "15259",
+      "confidence": 0.9105
+    },
+    {
+      "type": "Skirt",
+      "color": "Olive",
+      "match_type": "Similar Match",
+      "Product_ID": "15421",
+      "confidence": 0.8085
+    },
+    {
+      "type": "Top",
+      "color": "Black",
+      "match_type": "Similar Match",
+      "Product_ID": "42068",
+      "confidence": 0.7922
+    },
+    {
+      "type": "Dress",
+      "color": "Blue",
+      "match_type": "Similar Match",
+      "Product_ID": "15451",
+      "confidence": 0.7531
+    },
+    {
+      "type": "Shorts",
+      "color": "Pink",
+      "match_type": "Similar Match",
+      "Product_ID": "14982",
+      "confidence": 0.7559
+    },
+    {
+      "type": "Shirt",
+      "color": "White",
+      "match_type": "Similar Match",
+      "Product_ID": "15125",
+      "confidence": 0.7936
+    }
+  ]
+}

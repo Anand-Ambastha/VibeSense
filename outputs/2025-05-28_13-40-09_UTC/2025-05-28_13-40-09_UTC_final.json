@@ -1,0 +1,45 @@
+{
+  "video_id": "2025-05-28_13-40-09_UTC",
+  "vibes": [
+    "Party Glam",
+    "Cottagecore",
+    "Clean Girl"
+  ],
+  "products": [
+    {
+      "type": "Trouser",
+      "color": "Black",
+      "match_type": "Similar Match",
+      "Product_ID": "15209",
+      "confidence": 0.8458
+    },
+    {
+      "type": "Dress",
+      "color": "White",
+      "match_type": "Similar Match",
+      "Product_ID": "17198",
+      "confidence": 0.862
+    },
+    {
+      "type": "Co-Ord",
+      "color": "Red",
+      "match_type": "Similar Match",
+      "Product_ID": "15138",
+      "confidence": 0.8581
+    },
+    {
+      "type": "Shirt",
+      "color": "Blue",
+      "match_type": "Similar Match",
+      "Product_ID": "15259",
+      "confidence": 0.8387
+    },
+    {
+      "type": "Top",
+      "color": "White",
+      "match_type": "Similar Match",
+      "Product_ID": "15797",
+      "confidence": 0.8142
+    }
+  ]
+}

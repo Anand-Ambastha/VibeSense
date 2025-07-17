@@ -1,0 +1,24 @@
+{
+  "video_id": "2025-05-28_13-42-32_UTC",
+  "vibes": [
+    "Clean Girl",
+    "Party Glam",
+    "Cottagecore"
+  ],
+  "products": [
+    {
+      "type": "Dress",
+      "color": "Blue",
+      "match_type": "Similar Match",
+      "Product_ID": "15159",
+      "confidence": 0.8173
+    },
+    {
+      "type": "Dress",
+      "color": "White",
+      "match_type": "Similar Match",
+      "Product_ID": "15220",
+      "confidence": 0.7783
+    }
+  ]
+}

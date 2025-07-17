@@ -13,6 +13,9 @@ def DeduplicateViaConfidence(products):
             product_map[pid] = prod
     return list(product_map.values())
 
+def drop_unknown_products(products):
+    return [prod for prod in products if prod["type"].lower() != "unknown"]
+
 def full_pipeline(video_path):
     video_name = Path(video_path).stem
     cropped_dir = process_video(video_path)
@@ -42,6 +45,8 @@ def full_pipeline(video_path):
         "products": products
     }
     output["products"] = DeduplicateViaConfidence(output["products"])
+    #Because the provided images.csv and product.xlsx have diffrent products some of the data which are in image.csv isn't available in product.xlsx
+    output["products"] = drop_unknown_products(output["products"])
     output_dir = f"outputs/{video_name}"
     os.makedirs(output_dir, exist_ok=True)
     output_path = f"{output_dir}/{video_name}_final.json"

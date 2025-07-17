@@ -10,3 +10,5 @@ wheels/
 .venv
 
 catalog_clip.index
+model\best (2).pt
+model\best.pt

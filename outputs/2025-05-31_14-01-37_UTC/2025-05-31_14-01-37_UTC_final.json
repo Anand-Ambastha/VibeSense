@@ -1,0 +1,59 @@
+{
+  "video_id": "2025-05-31_14-01-37_UTC",
+  "vibes": [
+    "Clean Girl",
+    "Party Glam",
+    "Cottagecore"
+  ],
+  "products": [
+    {
+      "type": "Dress",
+      "color": "Cream",
+      "match_type": "Similar Match",
+      "Product_ID": "42032",
+      "confidence": 0.8646
+    },
+    {
+      "type": "Dress",
+      "color": "Peach",
+      "match_type": "Exact Match",
+      "Product_ID": "42080",
+      "confidence": 0.9055
+    },
+    {
+      "type": "Shirt",
+      "color": "Blue",
+      "match_type": "Similar Match",
+      "Product_ID": "15259",
+      "confidence": 0.869
+    },
+    {
+      "type": "Top",
+      "color": "Navy Blue",
+      "match_type": "Similar Match",
+      "Product_ID": "97557",
+      "confidence": 0.8484
+    },
+    {
+      "type": "Dress",
+      "color": "Blue",
+      "match_type": "Similar Match",
+      "Product_ID": "14980",
+      "confidence": 0.8583
+    },
+    {
+      "type": "Dress",
+      "color": "Blue",
+      "match_type": "Similar Match",
+      "Product_ID": "15159",
+      "confidence": 0.8064
+    },
+    {
+      "type": "Dress",
+      "color": "Black",
+      "match_type": "Similar Match",
+      "Product_ID": "14999",
+      "confidence": 0.8891
+    }
+  ]
+}
