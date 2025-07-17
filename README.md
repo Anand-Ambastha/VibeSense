@@ -34,8 +34,10 @@ Short-form content is dominating fashion discovery. But brands, creators, and pl
 * 🎞️ Video Frame Analysis
 * 👗 Visual Product Matching
 * 🧠 Caption-to-Vibe Understanding
+**Demo Link** : [Click Here](https://youtu.be/rObEcmknkh8)
 
 All in a single lightweight pipeline.
+
 
 ```mermaid
 graph TD
