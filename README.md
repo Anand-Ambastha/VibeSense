@@ -134,7 +134,7 @@ flickd-vibesense/
 ├── clip_embedding.py        # CLIP catalog embedding
 ├── cropped_yolo.py          # Frame & crop logic
 ├── faiss_data_extract.py    # Matching logic
-├── vibe_sense.py            # Caption vibe extraction
+├── vibe_extraction.py       # Caption vibe extraction
 ├── product_data.xlsx        # Product catalog
 ├── videos/                  # Input videos, Caption Files
 ├── crops/                   # YOLO crops
