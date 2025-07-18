@@ -124,7 +124,7 @@ graph TD
 |  Image Upload        | **YOLOv8n**               | Detect and crop fashion items from user photos         |
 |  Embedding           | **ViT-B/32 (CLIP)**       | Extract high-level image embeddings from cropped items |
 |  Metadata Processing | **MiniLM-L6-v2**          | Embed product titles/tags/descriptions into vectors    |
-|  Search/Match        | FAISS or Similarity Index | Compare embeddings for similarity across modalities    |
+|  Search/Match        | FAISS (Cosine Similarity) | Compare embeddings for similarity across modalities    |
 
 
 ---
