@@ -119,12 +119,12 @@ graph TD
 2. all-MiniLM-L6-v2 – Used for generating compact text embeddings from product metadata. Lightweight and great for semantic text matching.
 3. YOLOv8n – Employed for fast object detection on fashion items. Optimized for real-time performance with minimal resource usage.
 
-| Stage                   | Model                     | Role                                                   |
-| ----------------------- | ------------------------- | ------------------------------------------------------ |
-| 1️⃣ Image Upload        | **YOLOv8n**               | Detect and crop fashion items from user photos         |
-| 2️⃣ Embedding           | **ViT-B/32 (CLIP)**       | Extract high-level image embeddings from cropped items |
-| 3️⃣ Metadata Processing | **MiniLM-L6-v2**          | Embed product titles/tags/descriptions into vectors    |
-| 4️⃣ Search/Match        | FAISS or Similarity Index | Compare embeddings for similarity across modalities    |
+| Stage                | Model                     | Role                                                   |
+| -------------------- | ------------------------- | ------------------------------------------------------ |
+|  Image Upload        | **YOLOv8n**               | Detect and crop fashion items from user photos         |
+|  Embedding           | **ViT-B/32 (CLIP)**       | Extract high-level image embeddings from cropped items |
+|  Metadata Processing | **MiniLM-L6-v2**          | Embed product titles/tags/descriptions into vectors    |
+|  Search/Match        | FAISS or Similarity Index | Compare embeddings for similarity across modalities    |
 
 
 ---
